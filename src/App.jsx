@@ -1,11 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-//import DallE from "./componets/DallE";
+import React from "react";
+import Narvar from "./components/Narvar";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-   
-     <h1>nancy</h1>
-   
+    <div>
+      <Narvar />
+      <Header />
+      <Home />
+      <Footer />
+    </div>
   );
 };
 
