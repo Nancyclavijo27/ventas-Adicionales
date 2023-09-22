@@ -1,0 +1,27 @@
+/* styles.module.css */
+
+.container{
+    align-self: stretch;
+    width: 100%
+}
+
+.oneTimeOnly {
+    color: #2C7EF8;
+    font-size: 32px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 140%;
+    word-wrap: break-word;
+  }
+  
+  .specialPrice {
+    color: black;
+    font-size: 32px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 140%;
+    word-wrap: break-word;
+  }
+  

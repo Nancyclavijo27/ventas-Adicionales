@@ -1,8 +1,14 @@
+import React from 'react';
+import styles from './ProductDetails.module.css';
+
 const ProductDetails = () => {
     return (
-      <div style={{ left: 655, top: 40, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex' }}>
-        {/* Aquí irían los detalles del producto */}
-      </div>
+      <div className={styles.container}>
+      <span className={styles.oneTimeOnly}>ONE TIME ONLY </span>
+      <span className={styles.specialPrice}>special price for 6 extra Clarifion for only</span>
+      <span className={styles.oneTimeOnly}>$14 each</span>
+      <span className={styles.specialPrice}>( $84.00 total! )</span>
+    </div>
     );
   };
 

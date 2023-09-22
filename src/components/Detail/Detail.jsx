@@ -16,10 +16,12 @@ const Detail = () => {
         <ReviewItem />
       </div>
       <div className={styles.rightColumn}>
-        <DiscountAndCTA />
         <ProductDetails />
-        <ProductFeatures />
         <SatisfactionGuarantee />
+        <DiscountAndCTA />
+        
+        <ProductFeatures />
+        
       </div>
     </div>
   );

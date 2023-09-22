@@ -1,0 +1,166 @@
+/* ProductCard.module.css */
+
+.productCard {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .imageContainer {
+    width: 134px;
+    height: 134px;
+    position: relative;
+  }
+  
+  .imageBackground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #2C7EF8;
+    border-radius: 10px;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .productInfo {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    display: inline-flex;
+    
+  }
+  
+  .productTitle {
+    color: black;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
+    word-wrap: break-word;
+    display: flex; /* Establece el contenedor en flexbox */
+    flex-direction: column;
+  }
+  
+  .productPriceContainer {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    display: flex; /* Establece este contenedor en flexbox */
+    justify-content: space-between; /* Coloca los elementos en línea y distribuye el espacio entre ellos */
+    align-items: center; 
+  }
+
+  
+  
+  .originalPrice {
+    color: #969696;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 600;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .discountedPrice {
+    color: #2C7EF8;
+    font-size: 22px;
+    font-family: Manrope;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.80px;
+    word-wrap: break-word;
+  }
+
+  /* ProgressDots.module.css */
+
+.progressContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .progressDot {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border-radius: 16px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+
+  /* StockInfo.module.css */
+
+.stockInfoContainer {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+  }
+  
+  .stockDotContainer {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .stockDotOuter {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #E3EEFF;
+    border-radius: 9999px;
+  }
+  
+  .stockDotInner {
+    width: 8.53px;
+    height: 8.53px;
+    left: 3.79px;
+    top: 3.79px;
+    position: absolute;
+    background: #2C7EF8;
+    border-radius: 9999px;
+  }
+  
+  .stockText {
+    color: #37465A;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+
+  /* TextInfo.module.css */
+
+.textInfo {
+    width: 100%;
+    color: #4D5254;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+  }
+  
+  
+  
+  
+  
