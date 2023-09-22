@@ -1,0 +1,208 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+  
+  .segundo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+   .image{
+    width: 22px;
+    height: 22px;
+   }
+  
+  .text {
+    width: 447px;
+  }
+  
+  .ntext {
+    color: #4D5254;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 25.60px;
+    word-wrap: break-word;
+  }
+  
+  .btext {
+    color: #4D5254;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 25.60px;
+    word-wrap: break-word;
+  }
+
+
+  /* Estilo para el contenedor principal con la clase .stayl */
+.stayl {
+    display: flex;
+    width: 542px;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EDF3FD;
+  }
+  
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+ 
+  .image {
+    width: 32px;
+    height: 32px;
+  }
+  
+
+  /* Estilo para el texto "Save" */
+  .stext {
+    color: black;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+  }
+  
+  /* Estilo para el porcentaje "53%" */
+  .petext {
+    color: #2C7EF8;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+  }
+  
+  /* Agrega estilos para los otros elementos de texto según sea necesario */
+
+  /* styles.module.css */
+.container {
+    display: flex;
+    width: 542px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  
+  .discountBox {
+    display: flex;
+    padding: 16px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 50px;
+    background: #59AE43;
+  }
+  
+  .discountHeader {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 19.76px;
+    display: inline-flex;
+  }
+  
+  .discountText {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 19.764px;
+  }
+  
+  .divider {
+    width: 16px;
+    height: 0px;
+    background: white;
+    border: 1.98px white solid;
+  }
+  
+  .shipping {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+  }
+  
+  .shippingText {
+    color: #4D5254;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    text-transform: capitalize;
+  }
+  
+  .arrow {
+    width: 1px;
+    height: 16px;
+    background: #CFCFCF;
+  }
+  
+  .shippingDetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .iconico{
+    width: 12px;
+    height: 12px;
+  }
+
+  .shippingInfo {
+    text-align: center;
+    color: #4D5254;
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 150%;
+    font-style: normal;
+  }
+  
+  
+.supliicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+} 
+
+.noThanks {
+    color: #F82C2C;
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+  
+  

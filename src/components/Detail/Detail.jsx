@@ -18,10 +18,8 @@ const Detail = () => {
       <div className={styles.rightColumn}>
         <ProductDetails />
         <SatisfactionGuarantee />
-        <DiscountAndCTA />
-        
         <ProductFeatures />
-        
+        <DiscountAndCTA /> 
       </div>
     </div>
   );
