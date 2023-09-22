@@ -1,10 +1,28 @@
-.container{
-  width: '100%'; 
-  height: '100%'; 
-  position: 'relative'; 
-  background: '#FAFAFA'; 
-  borderRadius: 10; 
-  overflow: 'hidden'
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #FAFAFA;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
+.leftColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+.rightColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px; /* Añade espaciado entre los componentes a la derecha */
+}
+
+/* Estilos adicionales para los componentes específicos, como MainImage y Opinion */

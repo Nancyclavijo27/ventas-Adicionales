@@ -1,0 +1,89 @@
+/* Figma CSS */
+.item {
+    width: 575px;
+    padding: 24px;
+    background: white;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    display: flex;
+  }
+
+  
+
+
+  .header {
+    
+    align-items: center;
+    gap: 13px;
+    display: flex;
+  }
+
+  
+  
+  .img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+  }
+  
+  .rating {
+    width: 176px;
+    height: 35.297px;
+  }
+  
+  .star {
+    width: 78.11px;
+    height: 11.95px;
+    flex-shrink: 0;
+    
+  }
+
+  
+  
+  .details {
+    
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+
+  
+  
+  .username {
+    color: #333333;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 14px;
+    word-wrap: break-word;
+  }
+  
+  .verified {
+    color: #5BB59A;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 14.4px */
+  }
+
+  .imge{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  .reviewText{
+    height: 72px;
+    width: 527px;
+    color: #4D5254;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  

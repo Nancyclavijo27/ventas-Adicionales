@@ -5,18 +5,22 @@ import MainImage from './MainImage';
 import ProductDetails from './ProductDetails';
 import ProductFeatures from './ProductFeatures';
 import SatisfactionGuarantee from './SatisfactionGuarantee';
-
-
-
+import ReviewItem from './ReviewItem'; // Importa el componente
 
 const Detail = () => {
   return (
     <div className={styles.container}>
-     <MainImage />
-     <DiscountAndCTA />
-     <ProductDetails />
-     <ProductFeatures />
-     <SatisfactionGuarantee />
+      <div className={styles.leftColumn}>
+        <MainImage />
+        {/* Coloca ReviewItem aquí para que esté debajo de MainImage */}
+        <ReviewItem />
+      </div>
+      <div className={styles.rightColumn}>
+        <DiscountAndCTA />
+        <ProductDetails />
+        <ProductFeatures />
+        <SatisfactionGuarantee />
+      </div>
     </div>
   );
 };
