@@ -1,0 +1,46 @@
+/* Narvar.css */
+.box {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto; /* Margen automático en los lados derecho e izquierdo */
+    max-width: 1500px; /* Ancho máximo para hacerlo responsivo */
+    flex-wrap: wrap; /* Para que los elementos se envuelvan cuando el ancho es insuficiente */
+  }
+  
+  .primero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px; /* Espacio entre los elementos */
+    max-width: calc(25% - 20px); /* Ancho máximo del 25% del contenedor con espacio */
+    box-sizing: border-box; /* Incluye el padding en el ancho máximo */
+  }
+  
+  .image img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+  }
+  
+  .text {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+
+  .segundo{
+    display: flex;
+    width: 1500px;
+    padding: 30px 127px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+  }
+  

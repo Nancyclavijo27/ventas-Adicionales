@@ -1,0 +1,62 @@
+/* Footer.module.css */
+.container {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 127px;
+    padding-right: 119px;
+    background: #252F3D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
+  }
+  
+  .content {
+    padding-top: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22.40px;
+    word-wrap: break-word;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .iconPart1 {
+    width: 12px;
+    height: 7.33px;
+    left: 1.50px;
+    top: 7.33px;
+    position: absolute;
+    border: 1.33px white solid;
+  }
+  
+  .iconPart2 {
+    width: 6.67px;
+    height: 6px;
+    left: 4.17px;
+    top: 1.33px;
+    position: absolute;
+    border: 1.33px white solid;
+  }
+  

@@ -1,14 +1,14 @@
 import React from "react";
 import Narvar from "./components/Narvar";
-import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import './index.css'; // Importa tu hoja de estilos global
+
 
 const App = () => {
   return (
-    <div className="page">
+    <div>
       <Narvar />
-      <Header />
       <Home />
       <Footer />
     </div>

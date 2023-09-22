@@ -1,0 +1,27 @@
+/* MainImage.module.css */
+
+.container {
+    width: 575px; /* Ancho deseado en pantalla grande */
+    height: 591px; /* Alto deseado en pantalla grande */
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-Radius: 10px;
+    overflow: hidden;
+    max-width: 100%; /* La imagen no superará el ancho de la pantalla */
+  }
+  
+  .image {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la relación de aspecto */
+    object-fit: cover; /* La imagen se ajusta al contenedor manteniendo la relación de aspecto */
+    border-radius: 10px;
+  }
+  
+  
+  /* Para pantallas con ancho mínimo de 360px y altura mínima de 1225px */
+@media (min-width: 360px) and (min-height: 1225px) {
+    .image {
+      display: none; /* Ocultar la imagen en esta pantalla específica */
+    }
+  }

@@ -1,0 +1,38 @@
+/* Header.module.css */
+
+.containerb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 127px;
+  background: #FFF;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 192px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.logoone {
+  width: 88px;
+  height: 32px;
+  /* Estilos adicionales si los necesitas */
+}
+
+.logotwo {
+  width: 82px;
+  height: 32px;
+  /* Estilos adicionales si los necesitas */
+}
