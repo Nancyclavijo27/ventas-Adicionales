@@ -1,0 +1,34 @@
+/* StepIndicator.module.css */
+
+/* Step Indicator Container */
+.stepIndicator {
+    display: flex;
+    width: 1245px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Individual Step Container */
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Step Text */
+  .stepText {
+    color: black;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22px;
+    word-wrap: break-word;
+  }
+
+  .logo{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+  }
+  

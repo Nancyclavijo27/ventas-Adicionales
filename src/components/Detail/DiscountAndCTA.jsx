@@ -1,9 +1,23 @@
-const DiscountAndCTA = () => {
-    return (
-      <div style={{ width: '100%', height: '100%', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex' }}>
-        {/* Aquí irían los detalles de descuento y el botón de llamado a la acción */}
-      </div>
-    );
-  };
+import React from "react";
+import imagese from "../../assets/imagese.png";
+import styles from "./DiscountAndCTA.module.css";
 
-  export default DiscountAndCTA; 
+const DiscountAndCTA = () => {
+  return (
+    <div className={styles.container}>
+      <img src={imagese} alt="imagese" />
+      <div className={styles.textContainer}>
+        <span className={styles.text}>
+          If you are not completely thrilled with your Clarifion - We have a
+        </span>
+        <span className={styles.guarantee}>30 day satisfaction guarantee</span>
+        <span className={styles.text}>
+          . Please refer to our return policy at the bottom of the page for
+          more details. Happy Shopping!
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default DiscountAndCTA;
