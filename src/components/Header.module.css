@@ -1,17 +1,17 @@
 /* Header.module.css */
 
-.containerb {
+.container {
   display: flex;
+  width: 1500px;
+  height: 96px;
+  padding: 30px, 127px, 30px, 127p;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 127px;
   background: #FFF;
+  top: 50px;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-}
+
 
 .logo {
   width: 192px;
@@ -24,6 +24,8 @@
   align-items: flex-start;
   gap: 32px;
 }
+
+
 
 .logoone {
   width: 88px;

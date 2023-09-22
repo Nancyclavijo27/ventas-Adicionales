@@ -1,15 +1,13 @@
 /* Footer.module.css */
 .container {
-    width: 100%;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 127px;
-    padding-right: 119px;
-    background: #252F3D;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
+  display: inline-flex;
+  padding: 24px 119px 24px 127px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 592px;
+  background: #252F3D;
+  margin: 0 auto;
+  
   }
   
   .content {
