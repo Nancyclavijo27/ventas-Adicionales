@@ -9,18 +9,7 @@
   align-self: stretch;
   margin: 0 auto; /* Centra el elemento horizontalmente */
 }
-
-.customProductCard {
-  width: 100%; /* Cambia a 100% para que sea responsivo */
-  max-width: 550px; /* Límite máximo de 550px */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-  align-self: stretch;
-}
-
-  
+ 
   .imageContainer {
     width: 134px;
     height: 134px;

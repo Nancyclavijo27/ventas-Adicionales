@@ -7,7 +7,7 @@ import Star from "../../assets/Star.png";
 
 const SatisfactionGuarantee = () => {
     return (
-      <div  className={`${styles.productCard} ${styles.customProductCard}`}>
+      <div  className={styles.productCard}>
       <div className={styles.imageContainer}>
         <div className={styles.imageBackground} />
         <img className={styles.productImage} src={celu} alt="celu" />
