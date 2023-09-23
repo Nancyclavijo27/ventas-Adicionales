@@ -2,16 +2,22 @@
 
 .container {
   display: flex;
-  width: 1500px;
+  max-width: 1500px; /* En lugar de width, utiliza max-width para que sea responsivo */
   height: 96px;
-  padding: 30px, 127px, 30px, 127p;
+  padding: 30px 127px; /* Corrige la sintaxis de la propiedad padding */
   justify-content: space-between;
   align-items: center;
   background: #FFF;
-  top: 50px;
+  left: 0; /* Asegúrate de que el header esté fijo en la parte superior */
+  right: 0;
 }
 
-
+.content {
+  width: 100%; /* Asegúrate de que el contenido ocupe todo el ancho disponible */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo {
   width: 192px;
@@ -25,8 +31,6 @@
   gap: 32px;
 }
 
-
-
 .logoone {
   width: 88px;
   height: 32px;
@@ -37,4 +41,26 @@
   width: 82px;
   height: 32px;
   /* Estilos adicionales si los necesitas */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px; /* Ajusta el padding para dispositivos más pequeños */
+  }
+  
+  .logo {
+    width: 150px; /* Ajusta el tamaño del logo para dispositivos más pequeños */
+  }
+  
+  .logoContainer {
+    gap: 8px; /* Reduce aún más el espacio entre los logos en dispositivos pequeños */
+  }
+  
+  .logoone {
+    width: 66px; /* Ajusta el tamaño del logo 1 para dispositivos más pequeños */
+  }
+  
+  .logotwo {
+    width: 60px; /* Ajusta el tamaño del logo 2 para dispositivos más pequeños */
+  }
 }

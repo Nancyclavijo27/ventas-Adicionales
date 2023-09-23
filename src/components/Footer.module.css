@@ -1,60 +1,63 @@
-/* Footer.module.css */
 .container {
-  display: inline-flex;
-  padding: 24px 119px 24px 127px;
-  justify-content: flex-end;
+  display: flex;
+  padding: 24px;
+  justify-content: space-between; /* Usamos espacio entre elementos para separarlos */
   align-items: center;
-  gap: 592px;
   background: #252F3D;
-  margin: 0 auto;
-  
+  margin: 0;
+}
+
+.content {
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  gap: 16px;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  font-family: Manrope;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 22.40px;
+  word-wrap: break-word;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.iconPart1 {
+  width: 12px;
+  height: 7.33px;
+  left: 1.50px;
+  top: 7.33px;
+  position: absolute;
+  border: 1.33px white solid;
+}
+
+.iconPart2 {
+  width: 6.67px;
+  height: 6px;
+  left: 4.17px;
+  top: 1.33px;
+  position: absolute;
+  border: 1.33px white solid;
+}
+
+/* Media query para hacer el footer responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+    text-align: center; /* Centra el texto en pantallas pequeñas */
+    padding: 24px 10px; /* Ajusta el padding para pantallas pequeñas */
   }
-  
-  .content {
-    padding-top: 8px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  
-  .text {
-    color: white;
-    font-size: 16px;
-    font-family: Manrope;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 22.40px;
-    word-wrap: break-word;
-  }
-  
-  .iconContainer {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  
-  .icon {
-    width: 16px;
-    height: 16px;
-    position: relative;
-  }
-  
-  .iconPart1 {
-    width: 12px;
-    height: 7.33px;
-    left: 1.50px;
-    top: 7.33px;
-    position: absolute;
-    border: 1.33px white solid;
-  }
-  
-  .iconPart2 {
-    width: 6.67px;
-    height: 6px;
-    left: 4.17px;
-    top: 1.33px;
-    position: absolute;
-    border: 1.33px white solid;
-  }
-  
+}

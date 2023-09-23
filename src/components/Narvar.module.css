@@ -1,46 +1,49 @@
-/* Narvar.css */
+/* CSS anterior */
+
 .box {
-    display: flex;
-    background-color: black;
-    padding: 10px;
-    margin: 0 auto; /* Margen automático en los lados derecho e izquierdo */
-    max-width: 1500px; /* Ancho máximo para hacerlo responsivo */
-    flex-wrap: wrap; /* Para que los elementos se envuelvan cuando el ancho es insuficiente */
-  }
-  
-  .primero {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 10px; /* Espacio entre los elementos */
-    max-width: calc(25% - 20px); /* Ancho máximo del 25% del contenedor con espacio */
-    box-sizing: border-box; /* Incluye el padding en el ancho máximo */
-  }
-  
-  .image img {
-    width: 22px;
-    height: 22px;
-    margin-right: 10px;
-  }
-  
-  .text {
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100%;
-    text-transform: capitalize;
-    margin-top: 0;
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  margin: 0 auto; /* Centrar horizontalmente */
+  max-width: 1500px;
+  flex-wrap: wrap;
+  /* Añadir margen vertical según necesites */
+}
+
+.primero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  max-width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.image img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.text {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+/* Agregar media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column; /* Cambiar a disposición de columna para dispositivos móviles */
   }
 
-  .segundo{
-    display: flex;
-    width: 1500px;
-    padding: 30px 127px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF;
+  .primero {
+    max-width: 100%; /* Ocupar todo el ancho para dispositivos móviles */
   }
-  
+}

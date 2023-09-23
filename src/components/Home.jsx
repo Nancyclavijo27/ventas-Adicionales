@@ -3,11 +3,12 @@ import Header from './Header';
 import Content from './Content';
 import Detail from './Detail/Detail';
 import Steps from './Steps';
+//import styles from './Home.module.css';
 
 
 const Home = () => {
   return (
-    <div>
+    <div  >
       <Header />
       <Content />
       <Steps />

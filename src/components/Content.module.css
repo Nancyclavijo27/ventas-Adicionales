@@ -1,14 +1,18 @@
 /* Content.module.css */
 
 .containera {
-  width: 100%;
-  height: 100%;
+  width: 90%; /* Ancho relativo al 90% del contenedor padre */
+  height: auto; /* Altura automática según el contenido */
+  position: relative;
+  top: 10%; /* Posición relativa al 10% del contenedor padre */
+  left: 10%; /* Posición relativa al 10% del contenedor padre */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
 }
+
 
 .top {
   color: black;
