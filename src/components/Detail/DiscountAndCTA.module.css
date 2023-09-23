@@ -1,51 +1,51 @@
 /* Estilos para la versión desktop (pantallas grandes) */
 .container {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    width: 550px;
-    height: 88px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 550px;
+  height: 88px;
+}
+
+.image {
+  width: 88px;
+  height: 88px;
+}
+
+.text-container {
+  width: 446px;
+}
+
+/* Estilos para el texto normal */
+.text {
+  font-weight: 400;
+}
+
+/* Estilos para el texto de garantía */
+.guarantee {
+  font-weight: 700;
+}
+
+
+/* Media query para dispositivos móviles (ancho máximo de 768px) */
+@media (max-width: 768px) {
+  /* Ajustes de estilo específicos para dispositivos móviles */
+  .container {
+    flex-direction: column; /* Cambia la dirección de la columna para apilar elementos */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    gap: 12px; /* Reduce el espacio entre elementos */
+    width: 100%; /* Haz que el contenedor ocupe todo el ancho */
+    height: auto; /* Elimina la altura fija */
   }
-  
+
   .image {
-    width: 88px;
-    height: 88px;
+    width: 100px; /* Aumenta el tamaño de la imagen en dispositivos móviles */
+    height: 100px;
   }
-  
+
   .text-container {
-    width: 446px;
+    width: 100%; /* Haz que el contenedor de texto ocupe todo el ancho */
   }
-  
-  /* Estilos para el texto normal */
-  .text {
-    font-weight: 400;
-  }
-  
-  /* Estilos para el texto de garantía */
-  .guarantee {
-    font-weight: 700;
-  }
-  
-  /* Media query para dispositivos móviles (ancho máximo de 768px) */
-  @media (max-width: 768px) {
-    /* Ajustes de estilo específicos para dispositivos móviles */
-    .responsiveContainer {
-      width: 100%;
-      flex-direction: column; /* Cambia la dirección de la columna para apilar elementos */
-      align-items: flex-start; /* Alinea los elementos a la izquierda */
-      gap: 12px; /* Reduce el espacio entre elementos */
-      height: auto; /* Elimina la altura fija */
-    }
-  
-    .image {
-      width: 100px; /* Aumenta el tamaño de la imagen en dispositivos móviles */
-      height: 100px;
-    }
-  
-    .responsiveTextContainer {
-      width: 100%; /* Haz que el contenedor de texto ocupe todo el ancho */
-    }
-  
-    /* Puedes agregar más ajustes de estilo según sea necesario para dispositivos móviles */
-  }
-  
+
+  /* Puedes agregar más ajustes de estilo según sea necesario para dispositivos móviles */
+}

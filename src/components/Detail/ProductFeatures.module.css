@@ -1,12 +1,12 @@
 .container {
-  width: 100%; /* Cambia a 100% para que sea responsivo */
-  max-width: 550px; /* Límite máximo de 550px */
+  width: 100%;
+  max-width: 550px;
   display: flex;
+  flex-direction: column; /* Cambiar a columna para diseño móvil */
   align-items: center;
-  gap: 24px;
-  align-self: stretch;
-  margin: 0 auto; 
-  }
+  gap: 20px;
+  margin: 0 auto;
+}
 
   
 
@@ -214,15 +214,31 @@
     word-wrap: break-word;
   }
 
-  /* Media query para dispositivos móviles (ancho máximo de 768px) */
+
+  /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  /* Ajustes de estilo específicos para dispositivos móviles */
-  .mobileContainer {
-    /* Define los estilos que deseas para dispositivos móviles aquí */
-    /* Por ejemplo: */
-    width: 100%; /* Hace que el contenedor ocupe todo el ancho en dispositivos móviles */
-    padding: 10px; /* Añade un espacio interior de 10px en dispositivos móviles */
+  .container {
+    gap: 10px;
   }
 
-  /* Puedes agregar más ajustes de estilo según sea necesario para dispositivos móviles */
+  .containerone {
+    align-items: center; /* Centra elementos en vista móvil */
+    text-align: center; /* Centra el texto en vista móvil */
+  }
+
+  .segundo {
+    flex-direction: column; /* Coloca la imagen debajo del texto */
+    gap: 6px;
+  }
+
+  .image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .text {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  /* Agrega estilos adicionales según sea necesario para dispositivos móviles */
 }

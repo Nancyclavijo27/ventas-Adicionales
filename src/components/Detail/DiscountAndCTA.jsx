@@ -4,9 +4,9 @@ import styles from "./DiscountAndCTA.module.css";
 
 const DiscountAndCTA = () => {
   return (
-    <div className={`${styles.container} ${styles.responsiveContainer}`}>
+    <div className={styles.container}>
       <img src={imagese} alt="imagese" className={styles.image} />
-      <div className={`${styles.textContainer} ${styles.responsiveTextContainer}`}>
+      <div className={styles.textContainer}>
         <span className={styles.text}>
           If you are not completely thrilled with your Clarifion - We have a
         </span>
