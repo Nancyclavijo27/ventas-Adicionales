@@ -213,5 +213,16 @@
     text-transform: uppercase;
     word-wrap: break-word;
   }
-  
-  
+
+  /* Media query para dispositivos móviles (ancho máximo de 768px) */
+@media (max-width: 768px) {
+  /* Ajustes de estilo específicos para dispositivos móviles */
+  .mobileContainer {
+    /* Define los estilos que deseas para dispositivos móviles aquí */
+    /* Por ejemplo: */
+    width: 100%; /* Hace que el contenedor ocupe todo el ancho en dispositivos móviles */
+    padding: 10px; /* Añade un espacio interior de 10px en dispositivos móviles */
+  }
+
+  /* Puedes agregar más ajustes de estilo según sea necesario para dispositivos móviles */
+}
