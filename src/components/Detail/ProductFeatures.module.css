@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  max-width: 550px;
+  max-width: 100%; /* Cambia a 100% para ocupar todo el ancho en dispositivos móviles */
   display: flex;
   flex-direction: column; /* Cambiar a columna para diseño móvil */
   align-items: center;
@@ -232,12 +232,20 @@
   }
 
   .image {
-    width: 32px;
-    height: 32px;
+    width: 48px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
+    height: 48px; /* Ajusta el tamaño de la imagen para dispositivos móviles */
   }
 
   .text {
     width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .ntext {
+    font-size: 14px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+
+  .btext {
+    font-size: 14px; /* Ajusta el tamaño de fuente para dispositivos móviles */
   }
 
   /* Agrega estilos adicionales según sea necesario para dispositivos móviles */

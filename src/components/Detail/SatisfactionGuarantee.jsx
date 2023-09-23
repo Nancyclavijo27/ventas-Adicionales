@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './SatisfactionGuarantee.module.css';
 import celu from "../../assets/celu.png";
-import Star from "../../assets/Star.png";
-
+import star from "../../assets/star.png";
 
 
 const SatisfactionGuarantee = () => {
@@ -23,20 +22,20 @@ const SatisfactionGuarantee = () => {
         <div className={styles.progressContainer}>
       <div className={styles.progressDot} style={{ left: '0px', top: '0px' }}>
         
-        <img className={styles.productImage} src={Star} alt="Star" />
+        <img className={styles.productImage} src={star} alt="star" />
         
       </div>
       <div className={styles.progressDot} style={{ left: '20px', top: '0px' }}>
-      <img className={styles.productImage} src={Star} alt="Star" />
+      <img className={styles.productImage} src={star} alt="star" />
       </div>
       <div className={styles.progressDot} style={{ left: '40px', top: '0px' }}>
-      <img className={styles.productImage} src={Star} alt="Star" />
+      <img className={styles.productImage} src={star} alt="star" />
       </div>
       <div className={styles.progressDot} style={{ left: '60px', top: '0px' }}>
-      <img className={styles.productImage} src={Star} alt="Star" /> 
+      <img className={styles.productImage} src={star} alt="star" /> 
       </div>
       <div className={styles.progressDot} style={{ left: '80px', top: '0px' }}>
-      <img className={styles.productImage} src={Star} alt="Star" /> 
+      <img className={styles.productImage} src={star} alt="star" /> 
       </div>
     </div>
     <div className={styles.stockInfoContainer}>
