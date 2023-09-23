@@ -1,6 +1,7 @@
 /* Estilos para la versión desktop (pantallas grandes) */
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
   width: 550px;
@@ -32,7 +33,7 @@
   /* Ajustes de estilo específicos para dispositivos móviles */
   .container {
     flex-direction: column; /* Cambia la dirección de la columna para apilar elementos */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    align-items: center;
     gap: 12px; /* Reduce el espacio entre elementos */
     width: 100%; /* Haz que el contenedor ocupe todo el ancho */
     height: auto; /* Elimina la altura fija */

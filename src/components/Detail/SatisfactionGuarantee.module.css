@@ -4,6 +4,7 @@
   width: 100%; /* Cambia a 100% para que sea responsivo */
   max-width: 550px; /* Límite máximo de 550px */
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 24px;
   align-self: stretch;
@@ -171,7 +172,13 @@
     word-wrap: break-word;
   }
   
-  
+  /* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .productCard {
+    flex-direction: column; /* Cambiar a disposición de columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+  }
+}
   
   
   

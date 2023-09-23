@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 100%; /* Cambia a 100% para ocupar todo el ancho en dispositivos móviles */
   display: flex;
+  justify-content: space-between;
   flex-direction: column; /* Cambiar a columna para diseño móvil */
   align-items: center;
   gap: 20px;
@@ -20,8 +21,12 @@
   
   .segundo{
     display: flex;
-    align-items: center;
-    gap: 12px;
+    width: 542px;
+    padding: 12px 16px, 12px, 16px;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 auto;
+    
   }
   
    .image{
@@ -59,6 +64,7 @@
   padding: 12px 16px, 12px, 16px;
   align-items: flex-start;
   gap: 10px;
+  margin: 0 auto;
   }
   
   
@@ -98,12 +104,13 @@
   /* Agrega estilos para los otros elementos de texto según sea necesario */
 
   /* styles.module.css */
-.container {
+.containero {
     display: flex;
     width: 542px;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
   }
   
   .discount {
@@ -112,6 +119,7 @@
     align-items: center;
     gap: 12px;
     align-self: stretch;
+    justify-content: space-between;
   }
   
   .discountBox {
@@ -219,16 +227,30 @@
 @media (max-width: 768px) {
   .container {
     gap: 10px;
+    flex-direction: column; /* Cambiar a disposición de columna */
+    align-items: center;
   }
 
   .containerone {
     align-items: center; /* Centra elementos en vista móvil */
     text-align: center; /* Centra el texto en vista móvil */
+    align-items: center;
   }
 
   .segundo {
     flex-direction: column; /* Coloca la imagen debajo del texto */
     gap: 6px;
+    align-items: center;
+  }
+
+  .stayl{
+    
+    align-items: center;
+  }
+
+  .discount {
+    flex-direction: column; /* Cambiar a disposición de columna */
+    align-items: center;
   }
 
   .image {

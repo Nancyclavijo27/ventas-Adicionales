@@ -39,13 +39,14 @@
   margin-top: 0 ;
 }
 
-/* Agregar media queries para hacerlo responsivo */
+/* Estilos para el navbar en dispositivos móviles */
 @media (max-width: 768px) {
-  .box {
-    flex-direction: column; /* Cambiar a disposición de columna para dispositivos móviles */
-  }
-
-  .primero {
-    max-width: 100%; /* Ocupar todo el ancho para dispositivos móviles */
+  .navbar {
+    display: flex;
+    width: 360px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background: #252F3D;
   }
 }

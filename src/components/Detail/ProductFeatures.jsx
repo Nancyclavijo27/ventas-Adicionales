@@ -72,7 +72,7 @@ const ProductFeatures = () => {
        
       </div>
       </div>
-      <div className={styles.container}>
+      <div className={styles.containero}>
   <div className={styles.discount}>
     <div className={styles.discountBox}>
       <div className={styles.discountHeader}>
