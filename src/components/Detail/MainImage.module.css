@@ -4,7 +4,7 @@
     width: 575px; /* Ancho deseado en pantalla grande */
     height: 591px; /* Alto deseado en pantalla grande */
     position: relative;
-    left: 40px;
+    
     border-Radius: 10px;
     overflow: hidden;
     max-width: 100%; /* La imagen no superará el ancho de la pantalla */

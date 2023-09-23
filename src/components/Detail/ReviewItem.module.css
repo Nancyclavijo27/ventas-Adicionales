@@ -8,6 +8,7 @@
     align-items: flex-start;
     gap: 18px;
     display: flex;
+    
   }
 
   
@@ -18,6 +19,9 @@
     align-items: center;
     gap: 13px;
     display: flex;
+    width: 237px;
+    height: 48px;
+
   }
 
   
@@ -86,4 +90,20 @@
     line-height: 150%; /* 24px */
   }
 
+
+  @media (max-width: 575px) {
+    .item {
+      width: 100%; /* Ancho del 100% para pantallas pequeñas */
+      left: 0; /* Cambia la posición izquierda para centrar en la pantalla */
+      padding: 16px; /* Reduzca el relleno para pantallas pequeñas */
+    }
+  
+    /* Ajustes adicionales para otros elementos según sea necesario */
+    .username {
+      font-size: 12px; /* Reduzca el tamaño de la fuente para pantallas pequeñas */
+    }
+  
+    /* Agrega reglas de medios adicionales según sea necesario */
+  }
+  
   

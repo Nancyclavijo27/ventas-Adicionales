@@ -1,17 +1,30 @@
 /* ProductCard.module.css */
 
 .productCard {
-    width: 100%;
-    height: 100%;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 24px;
-  }
+  width: 100%; /* Cambia a 100% para que sea responsivo */
+  max-width: 550px; /* Límite máximo de 550px */
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+}
+
+.customProductCard {
+  width: 100%; /* Cambia a 100% para que sea responsivo */
+  max-width: 550px; /* Límite máximo de 550px */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
   
   .imageContainer {
     width: 134px;
     height: 134px;
+    border-radius: 10px;
     position: relative;
   }
   
@@ -21,6 +34,7 @@
     position: absolute;
     background: #2C7EF8;
     border-radius: 10px;
+    top: 0.5px;
   }
   
   .productImage {
@@ -36,9 +50,16 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
-    display: inline-flex;
+    display: flex;
     
+  }.productInfos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
   }
+
+
   
   .productTitle {
     color: black;
@@ -91,6 +112,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+    border-radius: 16px;
   }
   
   .progressDot {
@@ -113,7 +135,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 16px;
-    display: inline-flex;
+    display: flex;
   }
   
   .stockDotContainer {

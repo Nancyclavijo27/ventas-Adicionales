@@ -2,7 +2,8 @@
 
 .container{
     align-self: stretch;
-    width: 100%
+    width: 550px;
+    height: 113px;
 }
 
 .oneTimeOnly {
@@ -13,13 +14,14 @@
     text-transform: capitalize;
     line-height: 140%;
     word-wrap: break-word;
+    
   }
   
   .specialPrice {
     color: black;
     font-size: 32px;
     font-family: Manrope;
-    font-weight: 400;
+    font-weight:600;
     text-transform: capitalize;
     line-height: 140%;
     word-wrap: break-word;

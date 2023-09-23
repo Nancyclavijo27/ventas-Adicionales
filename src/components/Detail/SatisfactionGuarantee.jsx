@@ -1,20 +1,19 @@
 import React from 'react';
 import styles from './SatisfactionGuarantee.module.css';
 import celu from "../../assets/celu.png";
-import punto from "../../assets/punto.png";
 import Star from "../../assets/Star.png";
 
 
 
 const SatisfactionGuarantee = () => {
     return (
-      <div className={styles.productCard}>
+      <div  className={`${styles.productCard} ${styles.customProductCard}`}>
       <div className={styles.imageContainer}>
         <div className={styles.imageBackground} />
         <img className={styles.productImage} src={celu} alt="celu" />
       </div>
       <div className={styles.productInfo}>
-      <div className={styles.productInfo}>
+      <div className={styles.productInfos}>
         <div className={styles.productTitle}>Clarifion Air Ionizer</div>
         <div className={styles.productPriceContainer}>
           <div className={styles.originalPrice}>$180</div>

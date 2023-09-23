@@ -15,6 +15,7 @@ const ProductFeatures = () => {
   return (
     <div className={styles.container}>
       {/* Primera sección */}
+      <div className={styles.containerone}>
       <div className={styles.segundo}>
         <img
           src={azulch}
@@ -60,7 +61,7 @@ const ProductFeatures = () => {
           alt="porcen"
           className={styles.image}
         />
-        
+        </div>
           <span className={styles.stext}>Save </span>
           <span className={styles.petext}>53%</span>
           <span className={styles.stext}> and get </span>
@@ -102,11 +103,12 @@ const ProductFeatures = () => {
       </div>
     
   </div>
-</div>
+
 <div className={styles.noThanks}>
   <div className={styles.noThanksText}>
     No thanks, I don't want this.
   </div>
+</div>
 </div>
     </div>
   );

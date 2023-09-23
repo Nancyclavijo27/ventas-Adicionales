@@ -12,11 +12,13 @@ const Detail = () => {
     <div className={styles.container}>
       <div className={styles.leftColumn}>
         <MainImage />
-        {/* Coloca ReviewItem aquí para que esté debajo de MainImage */}
         <ReviewItem />
       </div>
       <div className={styles.rightColumn}>
-        <ProductDetails />
+        <div className={styles.productDetailsContainer}>
+          <ProductDetails />
+        </div>
+        <div style={{ height: '32px' }} /> {/* Espacio de 32px */}
         <SatisfactionGuarantee />
         <ProductFeatures />
         <DiscountAndCTA /> 
